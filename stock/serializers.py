@@ -16,5 +16,5 @@ class SaleRequestSerializers(ModelSerializer):
 class BuyRequestSerializers(ModelSerializer):
     class Meta:
         model = BuyRequest
-        fields = '__all__'
+        fields = ['amount' , 'price']
         
