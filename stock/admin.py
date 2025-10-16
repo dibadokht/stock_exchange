@@ -1,3 +1,6 @@
 from django.contrib import admin
+from stock.models import Company , BuyRequest , SaleRequest
 
-# Register your models here.
+admin.site.register(Company)
+admin.site.register(BuyRequest)
+admin.site.register(SaleRequest)
